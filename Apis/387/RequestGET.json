@@ -52,6 +52,10 @@
           {
             "name": "Name",
             "value": "[Record:Name]"
+          },
+          {
+            "name": "SingleFile",
+            "value": "[Record:SingleFile]"
           }
         ],
         "Headers": []
