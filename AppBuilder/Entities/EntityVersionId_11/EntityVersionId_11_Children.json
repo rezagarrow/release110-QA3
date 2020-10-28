@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "Id": 4,
+    "EntityVersionId": 3,
+    "RelationName": "MoreFiles"
+  }
+]
