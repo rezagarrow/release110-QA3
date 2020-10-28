@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -94,6 +93,39 @@
           &lt;ModuleId&gt;437&lt;/ModuleId&gt;
           &lt;ModuleTitle&gt;View Form&lt;/ModuleTitle&gt;
           &lt;ModuleOrder&gt;1&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;437&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;View Form&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;1&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
+      &lt;/Modules&gt;
+    &lt;/Tab&gt;
+    &lt;Tab&gt;
+      &lt;Title&gt;MoreFiles&lt;/Title&gt;
+      &lt;RefName /&gt;
+      &lt;CssClass /&gt;
+      &lt;EnableCondition /&gt;
+      &lt;ShowCondition /&gt;
+      &lt;IconUrl /&gt;
+      &lt;IconClass /&gt;
+      &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
+      &lt;ViewOrder&gt;2&lt;/ViewOrder&gt;
+      &lt;TabUrl /&gt;
+      &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
+      &lt;DefaultTab&gt;False&lt;/DefaultTab&gt;
+      &lt;Reevaluate&gt;False&lt;/Reevaluate&gt;
+      &lt;UseModuleTitles&gt;True&lt;/UseModuleTitles&gt;
+      &lt;Localization&gt;
+        &lt;en-US&gt;MoreFiles&lt;/en-US&gt;
+      &lt;/Localization&gt;
+      &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;439&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;MoreFiles Listing&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;2&lt;/ModuleOrder&gt;
           &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
         &lt;/Module&gt;
       &lt;/Modules&gt;
