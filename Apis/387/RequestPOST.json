@@ -22,6 +22,15 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "SingleFile",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -30,7 +39,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "Name": "[Name]"
+        "Name": "[Name]",
+        "SingleFile": "[SingleFile]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -66,6 +76,10 @@
           {
             "name": "Name",
             "value": "[CreatedRecord:Name]"
+          },
+          {
+            "name": "SingleFile",
+            "value": "[CreatedRecord:SingleFile]"
           }
         ],
         "Headers": [
