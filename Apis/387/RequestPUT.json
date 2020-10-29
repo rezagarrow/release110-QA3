@@ -48,6 +48,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Tag",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -57,7 +66,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "SingleFile": "[SingleFile]"
+        "SingleFile": "[SingleFile]",
+        "Tag": "[Tag]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
