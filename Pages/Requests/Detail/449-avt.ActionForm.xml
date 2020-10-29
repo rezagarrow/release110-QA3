@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.06.00">
+    <contentKey />
     <moduleID>449</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Tags Add Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>c0e5386d-a34a-47c6-91d8-33d651bf1aae</uniqueId>
+    <uniqueId>59d0972d-bcf0-4d6b-8342-eb7dd43ce9d5</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
