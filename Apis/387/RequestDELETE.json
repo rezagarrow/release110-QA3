@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Request record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 20,
+  "OrderIndex": 28,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
