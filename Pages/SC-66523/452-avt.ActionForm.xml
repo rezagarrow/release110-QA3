@@ -62,7 +62,7 @@
       &lt;AllowTokens /&gt;
       &lt;SecureInput&gt;True&lt;/SecureInput&gt;
       &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
-      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsRequired&gt;True&lt;/IsRequired&gt;
       &lt;IsActive&gt;True&lt;/IsActive&gt;
       &lt;EnableCondition /&gt;
       &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
@@ -216,7 +216,7 @@
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2020-10-30T10:01:49.1&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-30T10:02:11.74&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;value&quot;:&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;,&quot;name&quot;:&quot;DNNTextEditor&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;452&lt;/ModuleId&gt;
@@ -228,7 +228,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ShowMessage&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-30T10:01:49.1&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-30T10:02:11.74&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;DNNTextEditor: [DNNTextEditor] or [DNNTextEditor:Text] or [DNNTextEditor:Value]&amp;lt;br&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;ButtonsList&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;452&lt;/ModuleId&gt;
@@ -242,7 +242,7 @@
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;0&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-30T10:01:49.1&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-30T10:02:11.74&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;value&quot;:&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;,&quot;name&quot;:&quot;DNNTextEditor&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;452&lt;/ModuleId&gt;
