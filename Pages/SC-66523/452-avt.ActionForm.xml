@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.10.06.00">
+<module type="ActionForm" version="05.10.10.00">
     <contentKey />
     <moduleID>452</moduleID>
     <alignment />
@@ -36,7 +36,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.10.06.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.10.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[101]]&gt;&lt;/Id&gt;
@@ -153,7 +153,7 @@
     &lt;Title&gt;avt.Action Form&lt;/Title&gt;
     &lt;CssName&gt;avt-action-form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.6&lt;/Build&gt;
+    &lt;Build&gt;5.10.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate&gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;&amp;lt;a href=&quot;[FormUrl]&quot;&amp;gt;Click here to change.&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/FrontEndTemplate&gt;
@@ -172,7 +172,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;452&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.6&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;59&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -216,8 +216,8 @@
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2020-10-30T10:05:00.67&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-11-02T13:15:10.953&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;value&quot;:&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;,&quot;name&quot;:&quot;DNNTextEditor&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;452&lt;/ModuleId&gt;
       &lt;EventName&gt;init&lt;/EventName&gt;
@@ -228,9 +228,9 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ShowMessage&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-30T10:05:00.653&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;DNNTextEditor: [DNNTextEditor] or [DNNTextEditor:Text] or [DNNTextEditor:Value]&amp;lt;br&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;ButtonsList&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false}}&lt;/ActionData&gt;
+      &lt;LastModified&gt;2020-11-02T13:15:10.937&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;DNNTextEditor: [DNNTextEditor]&amp;amp;nbsp;&amp;lt;br&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;ButtonsList&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:[],&quot;IsExpression&quot;:false}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;452&lt;/ModuleId&gt;
       &lt;FieldName&gt;Submit&lt;/FieldName&gt;
       &lt;EventName&gt;click&lt;/EventName&gt;
@@ -242,8 +242,8 @@
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;0&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-30T10:05:00.67&lt;/LastModified&gt;
-      &lt;LastModifiedBy&gt;3&lt;/LastModifiedBy&gt;
+      &lt;LastModified&gt;2020-11-02T13:15:10.97&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;value&quot;:&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;,&quot;name&quot;:&quot;DNNTextEditor&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;452&lt;/ModuleId&gt;
       &lt;EventName&gt;preinit&lt;/EventName&gt;
