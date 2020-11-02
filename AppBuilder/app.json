@@ -1,7 +1,7 @@
 {
   "ApplicationName": "QA3",
   "GitRepositoryUrl": "https://github.com/rezagarrow/release110-QA3",
-  "EnableMobileLogin": true,
+  "EnableMobileLogin": false,
   "ResetPasswordTabId": 33,
   "ResetPasswordTabName": "reset-password",
   "ResetPassowrdTabPath": "//reset-password",
