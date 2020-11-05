@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "SingleFile",
+      "Name": "Tag",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,7 +33,7 @@
       "Validations": []
     },
     {
-      "Name": "Tag",
+      "Name": "SingleFile",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -49,8 +49,8 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
-        "SingleFile": "[SingleFile]",
-        "Tag": "[Tag]"
+        "Tag": "[Tag]",
+        "SingleFile": "[SingleFile]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -88,12 +88,12 @@
             "value": "[CreatedRecord:Name]"
           },
           {
-            "name": "SingleFile",
-            "value": "[CreatedRecord:SingleFile]"
-          },
-          {
             "name": "Tag",
             "value": "[CreatedRecord:Tag]"
+          },
+          {
+            "name": "SingleFile",
+            "value": "[CreatedRecord:SingleFile]"
           }
         ],
         "Headers": [
