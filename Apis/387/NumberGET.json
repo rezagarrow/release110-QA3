@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Number record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 14,
+  "OrderIndex": 30,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -50,6 +50,10 @@
             "value": "[RecordId]"
           },
           {
+            "name": "Money",
+            "value": "[Record:Money]"
+          },
+          {
             "name": "Name",
             "value": "[Record:Name]"
           },
@@ -60,10 +64,6 @@
           {
             "name": "Int",
             "value": "[Record:Int]"
-          },
-          {
-            "name": "Money",
-            "value": "[Record:Money]"
           }
         ],
         "Headers": []
