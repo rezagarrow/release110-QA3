@@ -7,7 +7,7 @@
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "Money",
+      "Name": "Dec",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
@@ -16,10 +16,19 @@
       "Validations": []
     },
     {
-      "Name": "Name",
+      "Name": "Money",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Name",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -31,15 +40,6 @@
           "OrderIndex": 0
         }
       ]
-    },
-    {
-      "Name": "Dec",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 2,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     },
     {
       "Name": "Int",
@@ -57,9 +57,9 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
+        "Dec": "[Dec]",
         "Money": "[Money]",
         "Name": "[Name]",
-        "Dec": "[Dec]",
         "Int": "[Int]"
       },
       "IsEnabled": true,
@@ -94,16 +94,16 @@
             "value": "[CreatedRecordId]"
           },
           {
+            "name": "Dec",
+            "value": "[CreatedRecord:Dec]"
+          },
+          {
             "name": "Money",
             "value": "[CreatedRecord:Money]"
           },
           {
             "name": "Name",
             "value": "[CreatedRecord:Name]"
-          },
-          {
-            "name": "Dec",
-            "value": "[CreatedRecord:Dec]"
           },
           {
             "name": "Int",
