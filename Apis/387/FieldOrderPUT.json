@@ -24,24 +24,16 @@
       ]
     },
     {
-      "Name": "AFIeld",
+      "Name": "EField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
       "Parameters": {},
       "InputTypeStr": "text",
-      "Validations": [
-        {
-          "Data": "{\"Message\":\"AFIeld is required.\"}",
-          "Type": "default-required",
-          "IsDeleted": false,
-          "IsEnabled": false,
-          "OrderIndex": 0
-        }
-      ]
+      "Validations": []
     },
     {
-      "Name": "BField",
+      "Name": "DField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -59,7 +51,7 @@
       "Validations": []
     },
     {
-      "Name": "DField",
+      "Name": "BField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -68,13 +60,21 @@
       "Validations": []
     },
     {
-      "Name": "EField",
+      "Name": "AFIeld",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 5,
       "Parameters": {},
       "InputTypeStr": "text",
-      "Validations": []
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"AFIeld is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
     }
   ],
   "Actions": [
@@ -83,11 +83,11 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "AFIeld": "[AFIeld]",
-        "BField": "[BField]",
-        "CField": "[CField]",
+        "EField": "[EField]",
         "DField": "[DField]",
-        "EField": "[EField]"
+        "CField": "[CField]",
+        "BField": "[BField]",
+        "AFIeld": "[AFIeld]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
