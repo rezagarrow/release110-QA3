@@ -7,24 +7,16 @@
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "AFIeld",
+      "Name": "EField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
       "Parameters": {},
       "InputTypeStr": "text",
-      "Validations": [
-        {
-          "Data": "{\"Message\":\"AFIeld is required.\"}",
-          "Type": "default-required",
-          "IsDeleted": false,
-          "IsEnabled": false,
-          "OrderIndex": 0
-        }
-      ]
+      "Validations": []
     },
     {
-      "Name": "BField",
+      "Name": "DField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -42,7 +34,7 @@
       "Validations": []
     },
     {
-      "Name": "DField",
+      "Name": "BField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -51,13 +43,21 @@
       "Validations": []
     },
     {
-      "Name": "EField",
+      "Name": "AFIeld",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
       "Parameters": {},
       "InputTypeStr": "text",
-      "Validations": []
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"AFIeld is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
     }
   ],
   "Actions": [
@@ -66,11 +66,11 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "AFIeld": "[AFIeld]",
-        "BField": "[BField]",
-        "CField": "[CField]",
+        "EField": "[EField]",
         "DField": "[DField]",
-        "EField": "[EField]"
+        "CField": "[CField]",
+        "BField": "[BField]",
+        "AFIeld": "[AFIeld]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -104,24 +104,24 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "AFIeld",
-            "value": "[CreatedRecord:AFIeld]"
-          },
-          {
-            "name": "BField",
-            "value": "[CreatedRecord:BField]"
-          },
-          {
-            "name": "CField",
-            "value": "[CreatedRecord:CField]"
+            "name": "EField",
+            "value": "[CreatedRecord:EField]"
           },
           {
             "name": "DField",
             "value": "[CreatedRecord:DField]"
           },
           {
-            "name": "EField",
-            "value": "[CreatedRecord:EField]"
+            "name": "CField",
+            "value": "[CreatedRecord:CField]"
+          },
+          {
+            "name": "BField",
+            "value": "[CreatedRecord:BField]"
+          },
+          {
+            "name": "AFIeld",
+            "value": "[CreatedRecord:AFIeld]"
           }
         ],
         "Headers": [
