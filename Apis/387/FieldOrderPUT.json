@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "CField",
+      "Name": "FField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,7 +33,7 @@
       "Validations": []
     },
     {
-      "Name": "EField",
+      "Name": "CField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -42,7 +42,7 @@
       "Validations": []
     },
     {
-      "Name": "DField",
+      "Name": "EField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -51,7 +51,7 @@
       "Validations": []
     },
     {
-      "Name": "BField",
+      "Name": "DField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
@@ -60,10 +60,19 @@
       "Validations": []
     },
     {
-      "Name": "AFIeld",
+      "Name": "BField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "AFIeld",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -83,6 +92,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
+        "FField": "[FField]",
         "CField": "[CField]",
         "EField": "[EField]",
         "DField": "[DField]",
