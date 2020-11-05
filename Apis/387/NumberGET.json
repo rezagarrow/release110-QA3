@@ -50,16 +50,16 @@
             "value": "[RecordId]"
           },
           {
+            "name": "Dec",
+            "value": "[Record:Dec]"
+          },
+          {
             "name": "Money",
             "value": "[Record:Money]"
           },
           {
             "name": "Name",
             "value": "[Record:Name]"
-          },
-          {
-            "name": "Dec",
-            "value": "[Record:Dec]"
           },
           {
             "name": "Int",
