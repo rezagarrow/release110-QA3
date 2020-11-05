@@ -1,4 +1,4 @@
-<module type="ActionForm" version="05.10.06.00">
+<module type="ActionForm" version="05.10.10.00">
     <contentKey />
     <moduleID>435</moduleID>
     <alignment />
@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -29,7 +28,7 @@
     <tabmodulesettings />
     <definition>Action Form</definition>
     <moduledefinition>avt.Action Form</moduledefinition>
-    <content type="ActionForm" version="05.10.06.00"><![CDATA[&lt;ActionForm&gt;
+    <content type="ActionForm" version="05.10.10.00"><![CDATA[&lt;ActionForm&gt;
   &lt;Fields&gt;
     &lt;Field&gt;
       &lt;Id&gt;&lt;![CDATA[75]]&gt;&lt;/Id&gt;
@@ -445,7 +444,7 @@
     &lt;Title&gt;Form&lt;/Title&gt;
     &lt;CssName&gt;form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.6&lt;/Build&gt;
+    &lt;Build&gt;5.10.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate /&gt;
@@ -462,7 +461,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Manual&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;435&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.6&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;55&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
