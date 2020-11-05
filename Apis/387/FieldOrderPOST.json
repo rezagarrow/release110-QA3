@@ -7,7 +7,7 @@
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "CField",
+      "Name": "FField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
@@ -16,7 +16,7 @@
       "Validations": []
     },
     {
-      "Name": "EField",
+      "Name": "CField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -25,7 +25,7 @@
       "Validations": []
     },
     {
-      "Name": "DField",
+      "Name": "EField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -34,7 +34,7 @@
       "Validations": []
     },
     {
-      "Name": "BField",
+      "Name": "DField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -43,10 +43,19 @@
       "Validations": []
     },
     {
-      "Name": "AFIeld",
+      "Name": "BField",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "AFIeld",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -66,6 +75,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
+        "FField": "[FField]",
         "CField": "[CField]",
         "EField": "[EField]",
         "DField": "[DField]",
@@ -102,6 +112,10 @@
           {
             "name": "Id",
             "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "FField",
+            "value": "[CreatedRecord:FField]"
           },
           {
             "name": "CField",
