@@ -50,16 +50,16 @@
             "value": "[RecordId]"
           },
           {
+            "name": "CField",
+            "value": "[Record:CField]"
+          },
+          {
             "name": "EField",
             "value": "[Record:EField]"
           },
           {
             "name": "DField",
             "value": "[Record:DField]"
-          },
-          {
-            "name": "CField",
-            "value": "[Record:CField]"
           },
           {
             "name": "BField",
