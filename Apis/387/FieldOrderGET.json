@@ -50,28 +50,32 @@
             "value": "[RecordId]"
           },
           {
-            "name": "FField",
-            "value": "[Record:FField]"
+            "name": "AFIeld",
+            "value": "[Record:AFIeld]"
           },
           {
-            "name": "CField",
-            "value": "[Record:CField]"
-          },
-          {
-            "name": "EField",
-            "value": "[Record:EField]"
-          },
-          {
-            "name": "DField",
-            "value": "[Record:DField]"
+            "name": "ANew",
+            "value": "[Record:ANew]"
           },
           {
             "name": "BField",
             "value": "[Record:BField]"
           },
           {
-            "name": "AFIeld",
-            "value": "[Record:AFIeld]"
+            "name": "CField",
+            "value": "[Record:CField]"
+          },
+          {
+            "name": "DField",
+            "value": "[Record:DField]"
+          },
+          {
+            "name": "FField",
+            "value": "[Record:FField]"
+          },
+          {
+            "name": "EField",
+            "value": "[Record:EField]"
           }
         ],
         "Headers": []
