@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -49,7 +48,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eName:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-table\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eSingleFile:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalDocument:FileName=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-table\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eTag:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalTag:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eName:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-table\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eTag:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalTag:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-table\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eSingleFile:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalDocument:FileName=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
       &lt;Value&gt;&lt;![CDATA[&lt;div class=&quot;entity-details-container&quot;&gt;
     &lt;div class=&quot;properties-container text&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -62,17 +61,17 @@
         &lt;div class=&quot;entity-property&quot;&gt;
             &lt;i class=&quot;fas fa-fw fa-lg i-icon fa-table&quot;&gt;
             &lt;/i&gt;
-            &lt;span class=&quot;entity-property-name&quot;&gt;SingleFile:&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Tag:&lt;/span&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;entity-value&quot;&gt;[originalDocument:FileName=&#39;-&#39;]&lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[originalTag:Name=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;properties-container entityref&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
             &lt;i class=&quot;fas fa-fw fa-lg i-icon fa-table&quot;&gt;
             &lt;/i&gt;
-            &lt;span class=&quot;entity-property-name&quot;&gt;Tag:&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;SingleFile:&lt;/span&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;entity-value&quot;&gt;[originalTag:Name=&#39;-&#39;]&lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[originalDocument:FileName=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
@@ -159,7 +158,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-11-05T00:44:44.38&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-05T00:46:09.393&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to view this item.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;437&lt;/ModuleId&gt;
@@ -174,7 +173,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-11-05T00:44:44.38&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-05T00:46:09.393&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:Name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:SingleFile&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Tag&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;437&lt;/ModuleId&gt;
@@ -188,7 +187,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Request&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-11-05T00:44:44.38&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-05T00:46:09.393&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:RequestId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;437&lt;/ModuleId&gt;
@@ -203,7 +202,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Document&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-11-05T00:44:44.397&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-05T00:46:09.393&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:SingleFile]&quot;,&quot;OutputToken&quot;:&quot;originalDocument&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;437&lt;/ModuleId&gt;
@@ -218,7 +217,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Tag&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-11-05T00:44:44.397&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-11-05T00:46:09.393&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:Tag]&quot;,&quot;OutputToken&quot;:&quot;originalTag&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;437&lt;/ModuleId&gt;
