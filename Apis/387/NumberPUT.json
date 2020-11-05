@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "Money",
+      "Name": "Dec",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -33,10 +33,19 @@
       "Validations": []
     },
     {
-      "Name": "Name",
+      "Name": "Money",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Name",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -48,15 +57,6 @@
           "OrderIndex": 0
         }
       ]
-    },
-    {
-      "Name": "Dec",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 3,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     },
     {
       "Name": "Int",
@@ -74,9 +74,9 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
+        "Dec": "[Dec]",
         "Money": "[Money]",
         "Name": "[Name]",
-        "Dec": "[Dec]",
         "Int": "[Int]"
       },
       "IsEnabled": true,
