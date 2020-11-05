@@ -24,55 +24,10 @@
       ]
     },
     {
-      "Name": "FField",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 1,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "CField",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 2,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "EField",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 3,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "DField",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 4,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
-      "Name": "BField",
-      "IsDeleted": false,
-      "IsEnabled": true,
-      "OrderIndex": 5,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
-    },
-    {
       "Name": "AFIeld",
       "IsDeleted": false,
       "IsEnabled": true,
-      "OrderIndex": 6,
+      "OrderIndex": 1,
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": [
@@ -84,6 +39,60 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "ANew",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "BField",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "CField",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "DField",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "FField",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "EField",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -92,12 +101,13 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "FField": "[FField]",
-        "CField": "[CField]",
-        "EField": "[EField]",
-        "DField": "[DField]",
+        "AFIeld": "[AFIeld]",
+        "ANew": "[ANew]",
         "BField": "[BField]",
-        "AFIeld": "[AFIeld]"
+        "CField": "[CField]",
+        "DField": "[DField]",
+        "FField": "[FField]",
+        "EField": "[EField]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
