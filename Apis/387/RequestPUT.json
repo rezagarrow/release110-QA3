@@ -41,7 +41,7 @@
       ]
     },
     {
-      "Name": "SingleFile",
+      "Name": "Tag",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 2,
@@ -50,7 +50,7 @@
       "Validations": []
     },
     {
-      "Name": "Tag",
+      "Name": "SingleFile",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 3,
@@ -66,8 +66,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "SingleFile": "[SingleFile]",
-        "Tag": "[Tag]"
+        "Tag": "[Tag]",
+        "SingleFile": "[SingleFile]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
