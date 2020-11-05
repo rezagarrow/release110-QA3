@@ -19,7 +19,7 @@
     "IsSearchable": true,
     "IsFilterable": false,
     "IsSortable": false,
-    "OrderIndex": 5
+    "OrderIndex": 6
   },
   {
     "Id": 24,
@@ -41,7 +41,7 @@
     "IsSearchable": true,
     "IsFilterable": false,
     "IsSortable": false,
-    "OrderIndex": 4
+    "OrderIndex": 5
   },
   {
     "Id": 25,
@@ -63,7 +63,7 @@
     "IsSearchable": true,
     "IsFilterable": false,
     "IsSortable": false,
-    "OrderIndex": 1
+    "OrderIndex": 2
   },
   {
     "Id": 26,
@@ -85,7 +85,7 @@
     "IsSearchable": false,
     "IsFilterable": false,
     "IsSortable": true,
-    "OrderIndex": 3
+    "OrderIndex": 4
   },
   {
     "Id": 27,
@@ -107,6 +107,28 @@
     "IsSearchable": false,
     "IsFilterable": false,
     "IsSortable": true,
-    "OrderIndex": 2
+    "OrderIndex": 3
+  },
+  {
+    "Id": 28,
+    "EntityVersionId": 13,
+    "Name": "F Field",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 1
   }
 ]
