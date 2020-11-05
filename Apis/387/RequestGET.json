@@ -54,12 +54,12 @@
             "value": "[Record:Name]"
           },
           {
-            "name": "SingleFile",
-            "value": "[Record:SingleFile]"
-          },
-          {
             "name": "Tag",
             "value": "[Record:Tag]"
+          },
+          {
+            "name": "SingleFile",
+            "value": "[Record:SingleFile]"
           }
         ],
         "Headers": []
